@@ -11,6 +11,12 @@
   align-items: center;
   flex-direction: column;
 }
+.purchase-signup{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 .purchase-logo{
   width: 300px;
   margin-top: 40px;
@@ -40,3 +46,271 @@
   box-shadow: 0px 4px 4px 5px #D4D3D3;
   /* box-shadow: 0 0 10px rgba(0,0,0,0.5); */
 }
+.purchase-p{
+  color:"red"
+}
+.purchase-p3{
+  text-transform:uppercase;
+  margin-top: 50px;
+  color:#61B846;
+  font-size: 25px;
+  font-weight: bold;
+}
+.purchase-p4{
+  text-transform:uppercase;
+ color:#024F9D;
+ font-weight: 600;
+}
+.input-1{
+  position: absolute;
+width: 228px;
+/* height: 0px; */
+border: none; 
+outline: none;
+border-bottom: 1px solid #D4D3D3 ;
+/* line-height: 25px; */
+  /* width: 200px;
+
+   */
+}
+.user-img{
+position: absolute;
+top: 177px;
+width: 20px;
+left: 63%;
+}
+.contact-img{
+  position: absolute;
+  top: 230px;
+  width: 15px;
+  left: 63%;
+  }
+.main-input-1{
+  display: flex;
+  justify-content: center;
+ 
+  margin-top: 80px;
+
+
+ }  
+ .main-input-2{
+  display: flex;
+  justify-content: center;
+
+  margin-top: 50px;
+ }  
+ .input-2{
+  position: absolute;
+width: 228px;
+
+
+border: none; 
+outline: none;
+border-bottom: 1px solid #D4D3D3 ;
+
+}
+.input-3{
+  position: absolute;
+width: 228px;
+
+
+border: none; 
+outline: none;
+border-bottom: 1px solid #D4D3D3 ;
+
+}
+  .email-img{
+    position: absolute;
+    top: 278px;
+    width: 20px;
+    left: 63%;
+    }
+  .main-input-3{
+    display: flex;
+    justify-content: center;
+   
+    margin-top: 50px;
+  
+  
+   }  
+   .input-4{
+    position: absolute;
+  width: 228px;
+  
+  
+  border: none; 
+  outline: none;
+  border-bottom: 1px solid #D4D3D3 ;
+  
+  }
+    .password-img{
+      position: absolute;
+      top: 333px;
+      width: 25px;
+      left: 63%;
+      }
+    .main-input-4{
+      display: flex;
+      justify-content: center;
+     
+      margin-top: 50px;
+    
+    
+     }  
+     .radio-1{
+      margin-top: 80px;
+     accent-color: #024F9D;
+    
+     }
+     .my-radio{
+      margin-left: 60px;
+     }
+     .input-5{
+      position: absolute;
+    width: 228px;
+    
+    
+    border: none; 
+    outline: none;
+    border-bottom: 1px solid #D4D3D3 ;
+    
+    }
+      .email2-img{
+        position: absolute;
+        top: 229px;
+        width: 20px;
+        left: 63%;
+        }
+      .main-input-5{
+        display: flex;
+        justify-content: center;
+       
+        margin-top: 50px;
+      
+      
+       }
+       .input-6{
+        position: absolute;
+      width: 228px;
+      
+      
+      border: none; 
+      outline: none;
+      border-bottom: 1px solid #D4D3D3 ;
+      
+      }
+        .password2-img{
+          position: absolute;
+          top: 282px;
+          width: 25px;
+          left: 63%;
+          }
+        .main-input-6{
+          display: flex;
+          justify-content: center;
+         
+          margin-top: 50px;
+        
+        
+         }  
+         .f-password{
+          margin-top: 30px;
+          margin-left: -115px;
+          font-size: 13px;
+          color: #024F9D;
+   
+         }
+  
+         .purchase-category{
+          display: flex;
+          justify-content: center;
+         align-items: center;
+          flex-direction: column;
+        }
+        .purchase-p5{
+          text-transform:uppercase;
+          margin-top: 20px;
+      
+          color:#61B846;
+          font-size: 25px;
+          font-weight: bold;
+         
+        }
+        .purchase-p6{
+          text-transform:uppercase;
+         
+          font-size: 15px;
+       margin-left: -130px;
+         color:#024F9D;
+         font-weight: 600;
+        }
+  
+       .cart-img{
+        margin-left: 50px;
+       }
+       .location-img{
+        margin-left: 10px;
+       }
+       .nf-img{
+        margin-left: 10px;
+       }
+       .grocery-img{
+        margin-top: 15px;
+       
+       }
+       .shop{
+        display: flex;
+      margin-top: 15px;
+        
+       }
+       .next-img{
+        margin-left: 150px;
+       }
+       .shop-text{
+        font-weight: bold;
+        font-size: 15px;
+       }
+       .box{
+
+        width: 500px;
+      
+        height: 50px;
+      
+        background-color: white;
+      
+        border-radius: 30px;
+      
+        display: flex;
+      
+        align-items: center;
+      
+        padding: 20px;
+      
+      }
+      
+      .box > i {
+      
+        font-size: 20px;
+      
+        color: #777;
+      
+      }
+      
+      .box > input{
+      
+        flex: 1;
+      
+        height: 40px;
+      
+        border: none;
+      
+        outline: none;
+      
+        font-size: 18px;
+      
+        padding-left: 10px;
+      
+      
+      }
+      
+      

@@ -1,11 +1,10 @@
 import React,{useState} from 'react'
 import PrUser from "../assets/User name icon.png"
-import PrContact from "../assets/contact.png"
 import PrEmail from "../assets/Email icon.png"
 import PrPassword from "../assets/Password icon.png"
 import { useNavigate } from "react-router-dom"
 
-const PurchaseSignup = () => {
+const PurchaseSignIn = () => {
     const navigate = useNavigate()
 
     const [sale,setPurchase] = useState();
@@ -18,26 +17,27 @@ const PurchaseSignup = () => {
     <input placeholder='User Name' className='input-1' />
      <img src={PrUser} alt="" className='user-img'/>
     </div>
-    <div className='main-input-2'>
-    <input placeholder='Contact' className='input-2' />
-     <img src={PrContact} alt="" className='contact-img'/>
+
+    <div className='main-input-5'>
+    <input placeholder='Email' className='input-5' />
+     <img src={PrEmail} alt="" className='email2-img'/>
     </div>
-    <div className='main-input-3'>
-    <input placeholder='Email' className='input-3' />
-     <img src={PrEmail} alt="" className='email-img'/>
+    <div className='main-input-6'>
+    <input placeholder='Password' className='input-6' />
+     <img src={PrPassword} alt="" className='password2-img'/>
     </div>
-    <div className='main-input-4'>
-    <input placeholder='Password' className='input-4' />
-     <img src={PrPassword} alt="" className='password-img'/>
+    <div className='My-forgot'>
+    <p className='f-password'>Forgot Password?</p>
+
     </div>
     <div className='radio-1'>
      <input type="radio"  name="select" value="sale" onChange={e=>sale(e.target.value)} />Sale
      <input type="radio" className='my-radio' name="select" value="purchase" onChange={e=>setPurchase(e.target.value)} />Purchase
     </div>
 
-  <button className="purchase-btn" onClick={()=>navigate("/PurchaseSignIn")}>Sign Up</button>
+  <button className="purchase-btn" onClick={()=>navigate("/PurchaseCategory")}>Sign In</button>
   </div>
   )
 }
 
-export default PurchaseSignup
+export default PurchaseSignIn
